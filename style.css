@@ -1,0 +1,74 @@
+:root{
+    --fonte-principal: 'Roboto';
+    --fonte-secundario: 'Open Sans';
+    --paragrafos-brancos: #FFFFFF;
+    --paragrafos-pretos: #000000;
+}
+
+.principal{
+    background-image: url(/imgs/intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 31%;
+    padding-bottom: 14%;
+}
+
+.image{
+    margin: 32px 0px 0px 112px;
+}
+
+.container__principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.container__lista{
+    display: flex;
+    position: absolute;
+    right: 130px;
+    bottom: 585px;
+}
+
+.lista__header a{
+    padding: 8px;
+    font-family: var(--fonte-secundario);
+    font-size: 17px;
+    text-decoration: none;
+    color: var(--paragrafos-brancos);
+}
+
+.main__text{
+    margin-top: 81px;
+    text-align: center;
+}
+
+.texto__principal{
+    font-family: var(--fonte-principal);
+    color: var(--paragrafos-brancos);
+    font-size: 40px;
+    font-weight: 400;
+    padding: 0px 315px;
+    margin-bottom: 69px;
+}
+
+.texto__secundario{
+    font-family: var(--fonte-secundario);
+    color: var(--paragrafos-brancos);
+    text-align: left;
+    padding: 0 362px;
+    margin-bottom: 100px;
+}
+
+.container__button{
+    text-decoration: none;
+    font-family: var(--fonte-secundario);
+    color: #F2F2F2;
+    font-size: 26px;
+    border: 3px solid #B72E2E;
+    background-color: #B72E2E;
+    border-radius: 5px;
+    padding: 2px 25px;
+}
