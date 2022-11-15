@@ -76,8 +76,7 @@
 
 .container__list-secundary{
     display: flex;
-    padding: 50px;
-    margin-top: -35px;
+    margin-top: -10px;
     background-color: #F1F1F1;
     padding: 1em 100px 1em;
 }
