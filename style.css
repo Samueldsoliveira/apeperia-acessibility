@@ -235,3 +235,132 @@
     padding: 0.3em 0.8em 0.3em 0.8em;
     border-radius: 7px;
 }
+
+.container__news{
+    margin-top: 51px;
+    margin-bottom: 50%;
+}
+
+#text__plain-blog{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--paragrafos-vermelhos);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.content{
+    height: 520px;
+    width: 920px;
+    overflow: hidden;
+    position: absolute;
+    left: 15%;
+}
+
+.navigation{
+    position: absolute;
+    top: 83%;
+    right: 42%;
+    display: flex;
+}
+
+
+.bar{
+    width: 37px;
+    height: 36px;
+    margin: 6px;
+    border-radius: 26px;
+    cursor: pointer;
+    background-color: #c0c0c0;
+    margin: 0 10px;
+}
+
+.bar:active{
+    background-color: var(--paragrafos-vermelhos);
+}
+
+.bar:hover{
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.content input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 45%;
+}
+
+.text__main-news{
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+
+.text__paragraph-news{
+    font-family: var(--fonte-secundario);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.text__paragraph-news a{
+    color: #EB5757;
+    text-decoration: none;
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#main__title-emphasis{
+    text-align: center;
+    font-size: 40px;
+    font-family: var(--fonte-principal);
+    color: var(--paragrafos-vermelhos);
+    font-weight: 700;
+    margin-top: 54.23px;
+    margin-bottom: 46.32px;
+}
+
+.images__emphasys-ul{
+    display: flex;
+}
+
+.images__emphasys-li{
+    margin: 0px 0px 0px -60px;
+    padding: 30px 108px 40px 39px;
+}
+
+.images__emphasys-li img{
+    width: 30em;
+}
+
+.secundary-image img p{
+    background-color: white;
+}
