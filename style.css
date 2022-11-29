@@ -41,6 +41,15 @@
     color: var(--paragrafos-brancos);
 }
 
+.lista__header:hover{
+    transition: transform 0.3s;
+    transform: scale(1.1);
+}
+
+.lista__header a:active{
+    color: var(--paragrafos-vermelhos);
+}
+
 .main__text{
     margin-top: 81px;
     text-align: center;
@@ -447,6 +456,7 @@
     background-color: #B72E2E;
     border: 1px;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .button__forms a{
@@ -510,6 +520,11 @@
 
 .icons__footer li{
     padding: 0 1em;
+}
+
+.icons__footer li:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
 }
 
 .itens__footer{
