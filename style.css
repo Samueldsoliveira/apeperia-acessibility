@@ -7,7 +7,7 @@
 }
 
 .principal{
-    background-image: url(/imgs/intro.png);
+    background-image: url(./imgs/intro.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
